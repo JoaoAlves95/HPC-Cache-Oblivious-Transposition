@@ -11,4 +11,6 @@ To run this program (requires GCC compiler):
 4) cd exe/
 5) ./mtx n m, where n and m represent the number of rows and columns of an automatically generated random matrix.
 
+Note that n and m should be multiples of 4 due to the restirctions imposed by SIMD vectors.
+
 The program outputs the time it took to perform the transposition step, plus a random matrix value to avoid deadcode removal.
