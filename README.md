@@ -5,9 +5,10 @@ The source file requires minor refactorization in order to exactly match the alg
 
 To run this program (requires GCC compiler):
 
-1) Download the source folder;
-2) cd source;
+1) Download the repository folder;
+2) cd HPC-Cache-Oblivious-Transposition/src;
 3) make;
-4) ./mtx n m, where n and m represent the number of rows and columns fo the automatically generated random matrix.
+4) cd exe/
+5) ./mtx n m, where n and m represent the number of rows and columns of an automatically generated random matrix.
 
-The program outputs the time it took to perform the transposition step.
+The program outputs the time it took to perform the transposition step, plus a random matrix value to avoid deadcode removal.
